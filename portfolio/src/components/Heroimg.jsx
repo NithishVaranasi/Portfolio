@@ -12,7 +12,7 @@ const Heroimg = () => {
         <h1>I'm Developer</h1>
         <div>
             <Link to ="/about" className='btn'>About Me</Link>
-            <Link to ="/contact" className='btn btn-light'>Contact Me</Link>
+            <Link to ="/contact us" className='btn btn-light'>Contact Me</Link>
         </div>
     </div>
   </div>
