@@ -45,7 +45,7 @@ p{
     font-size: 15;
 }
 
-@media screen and(max-width:640px){
+@media screen and(max-width:480px){
     .footer-container{
         grid-template-columns:1fr;
     }
