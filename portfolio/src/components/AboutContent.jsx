@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import React from 'react'
 import con from "../assets/con.png"
 import conn from "../assets/conn.png"
-import Skills from './Skills';
+
 const AboutContent = () => {
     
   return <div className="about">
@@ -13,7 +13,7 @@ const AboutContent = () => {
         <p>I'm Front-End Developer. I create responsive websites and Applicatons. I'm capable to do Machine Learning and Deep Learning projects. I do projects for my clients.</p>
         <Link to="/Contact us">
             <button className="btn">Contact Me</button>
-        </Link><Skills/>
+        </Link>
     </div>
     <div className="right">
         <div className="img-container">
