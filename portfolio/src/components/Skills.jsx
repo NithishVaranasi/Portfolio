@@ -1,7 +1,6 @@
 import React from 'react';
-import { FaPython, FaJs, FaReact } from 'react-icons/fa';
-import { AiOutlineAntDesign, AiOutlineApi } from 'react-icons/ai';
-import { DiPython, DiJsBadge, DiReact } from 'react-icons/di';
+import { FaPython,FaJs, FaLayerGroup, FaReact,FaBullseye } from 'react-icons/fa';
+// import { DiPython, DiJsBadge, DiReact } from 'react-icons/di';
 import './Skillsstyles.css'
 
 const Skills = () => {
@@ -22,23 +21,15 @@ const Skills = () => {
                     <span>React JS</span>
                 </div>
                 <div className="skill">
-                    <DiReact />
+                    <FaReact />
                     <span>React Native</span>
                 </div>
                 <div className="skill">
-                    <AiOutlineAntDesign />
-                    <span>Ant Design</span>
-                </div>
-                <div className="skill">
-                    <AiOutlineApi />
-                    <span>APIs</span>
-                </div>
-                <div className="skill">
-                    <DiPython />
+                    <FaBullseye/>
                     <span>Machine Learning</span>
                 </div>
                 <div className="skill">
-                    <DiJsBadge />
+                    <FaLayerGroup/>
                     <span>Deep Learning</span>
                 </div>
             </div>
