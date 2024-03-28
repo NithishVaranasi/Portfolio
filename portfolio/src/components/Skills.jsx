@@ -6,7 +6,7 @@ import './Skillsstyles.css'
 const Skills = () => {
     return (
         <div className="skills">
-            <h2>Skills</h2>
+            <h2 style={{ color: "blue" }}>Skills</h2>
             <div className="skill-icons">
                 <div className="skill">
                     <FaPython />
@@ -33,6 +33,9 @@ const Skills = () => {
                     <span>Deep Learning</span>
                 </div>
             </div>
+            <Link to="/Contact us">
+            <button className="btn">Contact Me</button>
+        </Link>
         </div>
     );
 };
