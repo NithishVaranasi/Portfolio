@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaPython, FaJs, FaReact } from 'react-icons/fa';
 import { AiOutlineAntDesign, AiOutlineApi } from 'react-icons/ai';
-import { DiPython, DiJsBadge, DiReact, DiReact } from 'react-icons/di';
+import { DiPython, DiJsBadge, DiReact } from 'react-icons/di';
 import './Skillsstyles.css'
 
 const Skills = () => {
