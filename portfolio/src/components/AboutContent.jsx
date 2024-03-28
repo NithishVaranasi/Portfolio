@@ -8,7 +8,7 @@ const AboutContent = () => {
     <div className="left">
         <h1>Who Are You🤔👇</h1>
         <h2>U R knowing about me😊</h2>
-        <p>I'm Front-End Developer and ML Junior Engineer. I create responsive websites and Applicatons. I'm capable to do Machine Learning and Deep Learning projects. I do projects for my clients.</p>
+        <p>I'm Front-End Developer. I create responsive websites and Applicatons. I'm capable to do Machine Learning and Deep Learning projects. I do projects for my clients.</p>
         <Link to="/Contact us">
             <button className="btn">Contact Me</button>
         </Link>

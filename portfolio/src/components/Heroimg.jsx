@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Heroimgstyles.css"
-import IntroImg from "../assets/bg4.png"
+import IntroImg from "../assets/port.jpg"
 import { Link } from 'react-router-dom'
 const Heroimg = () => {
   return <div className='hero'>
