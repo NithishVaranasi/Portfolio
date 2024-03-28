@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import React from 'react'
 import con from "../assets/con.png"
 import conn from "../assets/conn.png"
+import './Skills.jsx'
 const AboutContent = () => {
   return <div className="about">
     <div className="left">
