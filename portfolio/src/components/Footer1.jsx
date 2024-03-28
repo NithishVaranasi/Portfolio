@@ -24,7 +24,8 @@ const Footer = () => {
             </div>
             <div className="right">
               <h4>About Me</h4>
-              <p>This is your Nithish Bhavan Varanasi. I'm here to support in projects and design challenges. </p>
+              <p>This is your Nithish Bhavan Varanasi. 
+                I'm here to support in projects and design challenges. </p>
               <div className="social">
               <a href="https://www.linkedin.com/in/nithish-bhavan-varanasi-58ab53224/"><FaLinkedin size={30} style={{color:"white",marginRight:"2rem"}}/></a>
                 <a href="https://github.com/NithishVaranasi/"><FaGithub size={30} style={{color:"white",marginRight:"2rem"}}/></a>
