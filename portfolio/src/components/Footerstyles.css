@@ -45,4 +45,16 @@ p {
     .footer-container {
         grid-template-columns: 1fr;
     }
+
+    .right {
+        width: 100%;
+    }
+
+    .right h4 {
+        font-size: 16px;
+    }
+
+    .right p {
+        font-size: 14px;
+    }
 }
