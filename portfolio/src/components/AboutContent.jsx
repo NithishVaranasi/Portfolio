@@ -5,7 +5,7 @@ import con from "../assets/con.png"
 import conn from "../assets/conn.png"
 import Skills from './Skills';
 const AboutContent = () => {
-    <Skills/>
+    
   return <div className="about">
     <div className="left">
         <h1>Who Are You🤔👇</h1>
@@ -13,7 +13,7 @@ const AboutContent = () => {
         <p>I'm Front-End Developer. I create responsive websites and Applicatons. I'm capable to do Machine Learning and Deep Learning projects. I do projects for my clients.</p>
         <Link to="/Contact us">
             <button className="btn">Contact Me</button>
-        </Link>
+        </Link><Skills/>
     </div>
     <div className="right">
         <div className="img-container">
