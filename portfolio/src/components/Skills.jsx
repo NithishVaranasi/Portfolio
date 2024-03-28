@@ -2,6 +2,7 @@ import React from 'react';
 import { FaPython,FaJs, FaLayerGroup, FaReact,FaBullseye } from 'react-icons/fa';
 // import { DiPython, DiJsBadge, DiReact } from 'react-icons/di';
 import './Skillsstyles.css'
+import { Link } from "react-router-dom"
 
 const Skills = () => {
     return (
@@ -35,7 +36,7 @@ const Skills = () => {
             </div>
             <Link to="/Contact us">
             <button className="btn">Contact Me</button>
-        </Link>
+            </Link>
         </div>
     );
 };
