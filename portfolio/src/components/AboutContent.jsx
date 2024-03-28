@@ -3,8 +3,9 @@ import { Link } from "react-router-dom"
 import React from 'react'
 import con from "../assets/con.png"
 import conn from "../assets/conn.png"
-import './Skills.jsx'
+import Skills from './Skills';
 const AboutContent = () => {
+    <Skills/>
   return <div className="about">
     <div className="left">
         <h1>Who Are You🤔👇</h1>
@@ -25,6 +26,7 @@ const AboutContent = () => {
         </div>
     </div>
     </div>
+    
 
 }
 
