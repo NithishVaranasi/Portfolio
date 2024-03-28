@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 const Skills = () => {
     return (
         <div className="skills">
-            <h2 style={{ color: "blue" }}>Skills</h2>
+            <h2 style={{ color: "White" }}>Skills</h2>
             <div className="skill-icons">
                 <div className="skill">
                     <FaPython />
