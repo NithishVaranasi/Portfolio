@@ -3,7 +3,7 @@ import React from 'react'
 
 const Form = () => {
   return <div className="form">
-    <form>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
         <label>Your Name</label>
         <input type="text" required />
         <label>Email</label>
