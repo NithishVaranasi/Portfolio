@@ -4,7 +4,7 @@ import React from 'react';
 const Form = () => {
   return (
     <div className="form">
-      <form action="https://formspree.io/f/myyrnjyg" method="POST">
+      <form action="https://formspree.io/f/mpzvyrzd" method="POST">
         <label>Your Name</label>
         <input type="text" required />
         <label>Email</label>
