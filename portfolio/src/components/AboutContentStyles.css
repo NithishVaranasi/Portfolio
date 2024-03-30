@@ -16,9 +16,9 @@
 }
 .about .left p{
     margin: 1.2rem 0;
-    font-size: 20;
+    font-size: 20px;
     color: black;
-    font-style: bold;
+    font-weight: bold;
 }
 .about.right{
     max-width: 700px;
