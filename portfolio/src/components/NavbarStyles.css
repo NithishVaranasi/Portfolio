@@ -20,7 +20,7 @@
     padding: 0 1rem;
 }
 .nav-menu li a{
-   font-size: 20;
+   font-size: 20px;
    font-family: sans-serif;
    font-weight: bold;
 }
@@ -29,7 +29,7 @@
     display: none;
     z-index: 4;
 }
-@media screen and (max-width:1040px){
+@media screen and (max-width:500px){
     .nav-menu{
         flex-direction: column;
         justify-content: center;
