@@ -18,13 +18,14 @@
   textarea {
     padding: 10px;
     margin-bottom: 1rem;
-    font-size: 1rem;
+    font-size: 16;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-weight: bolder;
   }
   
   textarea {
-    resize: horizontal;
+    resize: both;
   }
   
   button {
