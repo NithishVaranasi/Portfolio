@@ -8,8 +8,8 @@ const Heroimg = () => {
         <img className='into-img' src={IntroImg} alt='IntroImg'/>
     </div>
     <div className='content'>
-        <h1>HI, Know About Me..</h1>
-        <p>I'm Developer</p>
+        <p>HI, Know About Me..</p>
+        <h1>I'm Developer</h1>
         <div>
             <Link to ="/about" className='btn'>About Me</Link>
             <Link to ="/contact us" className='btn btn-light'>Contact Me</Link>

@@ -37,12 +37,12 @@
     transform: translate(-50px,-50px);
 }
 
-.hero .content h1{
+.hero .content p{
     font-size: 20;
     padding:0.6rem 0 1.5rem;
 }
 
-.hero .content p{
+.hero .content h1{
     font-size: 20;
     font-weight: bold;
 }
