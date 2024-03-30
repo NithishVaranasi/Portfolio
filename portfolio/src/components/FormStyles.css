@@ -3,7 +3,7 @@
     flex-direction: column;
     max-width: 400px;
     margin: auto;
-    padding: 2rem;
+    max-width: 400;
   }
   
   label {
@@ -24,7 +24,7 @@
   }
   
   textarea {
-    resize: vertical;
+    resize: horizontal;
   }
   
   button {
@@ -39,7 +39,7 @@
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #010b16;
   }
   
   @media screen and (max-width: 600px) {
