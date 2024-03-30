@@ -38,28 +38,27 @@ h4 {
 }
 
 p {
-    font-size: 15px;
+    font-size: 12px;
 }
 
-/* Responsive styles for screens up to 400px */
 @media screen and (max-width: 400px) {
     .footer-container {
         grid-template-columns: 1fr;
     }
-    
+
     .footer {
-        padding: 4rem 0; /* Decrease padding on smaller screens */
+        padding: 4rem 0;
     }
 
     .left, .right {
-        text-align: center; /* Center align content on smaller screens */
+        text-align: center;
     }
 
     h4 {
-        font-size: 14px; /* Increase font size of headings on smaller screens */
+        font-size: 14px;
     }
 
     p {
-        font-size: 13px; /* Adjust font size of paragraphs on smaller screens */
+        font-size: 13px;
     }
 }
