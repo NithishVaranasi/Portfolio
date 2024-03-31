@@ -34,13 +34,14 @@
 } */
 .pro-btns .btn{
     padding: 0.1rem;
-    align-self: flex-end;
+    margin: auto;
 }
 @media screen and(max-width:500px) {
     .project-container{
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
+        flex-direction: row;
     }
     .pro-details{
         overflow: auto;
