@@ -1,49 +1,61 @@
-.project-heading{
+.project-heading {
     text-align: center;
     padding: 4rem 0 2rem 0;
 }
 
-.project-container{
+.project-container {
     max-width: 1140px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
     padding-bottom: 5rem;
 }
-.project-card{
+
+.project-card {
     background: transparent;
     padding: 1.2rem 1rem;
 }
-.project-card img{
-    width:80%;
+
+.project-card img {
+    width: 80%;
 }
-.project-title{
+
+.project-title {
     color: beige;
     padding: 1rem 0;
 }
-.pro-details{
+
+.pro-details {
     padding-bottom: 1rem;
     font-size: 1.1rem;
-    text-align: match-parent;
+    text-align: left; /* Use 'left' to ensure consistent alignment */
 }
-.pro-btns{
+
+.pro-btns {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Distributes buttons evenly */
+    align-items: center; /* Aligns buttons vertically centered */
     padding: 0.5rem 0;
-    align-items:last baseline ;
 }
-.pro-btns .btn{
+
+.pro-btns .btn {
     padding: 0.5rem;
-    margin: auto;
+    margin: 0; /* Ensure no extra margin affects alignment */
 }
-@media screen and(max-width:500px) {
-    .project-container{
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 500px) {
+    .project-container {
         max-width: 80%;
-        margin: auto;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* Stack columns on smaller screens */
     }
-    .pro-details{
-        overflow: auto;
+
+    .pro-details {
+        overflow: auto; /* Handle overflow on smaller screens */
+    }
+
+    .project-card img {
+        width: 100%; /* Adjust image size to fit smaller screens */
     }
 }
