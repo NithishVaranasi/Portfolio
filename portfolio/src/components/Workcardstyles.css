@@ -29,22 +29,22 @@
 .pro-details {
     padding-bottom: 1rem;
     font-size: 1.1rem;
-    text-align: left; /* Use 'left' to ensure consistent alignment */
+    text-align: left; /* Align text consistently */
 }
 
 .pro-btns {
     display: flex;
-    justify-content: space-between; /* Distributes buttons evenly */
-    align-items: center; /* Aligns buttons vertically centered */
+    flex-wrap: wrap; /* Allows buttons to wrap to the next line if necessary */
+    justify-content: flex-start; /* Aligns buttons to the start of the container */
+    gap: 10px; /* Adds space between buttons */
     padding: 0.5rem 0;
 }
 
 .pro-btns .btn {
     padding: 0.5rem;
-    margin: 0; /* Ensure no extra margin affects alignment */
+    margin: 0; /* Remove any margin to keep buttons aligned */
 }
 
-/* Media Queries for Responsive Design */
 @media screen and (max-width: 500px) {
     .project-container {
         max-width: 80%;
