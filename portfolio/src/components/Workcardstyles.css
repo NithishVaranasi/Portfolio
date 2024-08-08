@@ -12,11 +12,11 @@
     padding-bottom: 5rem;
 }
 .project-card{
-    background: red;
+    background: transparent;
     padding: 1.2rem 1rem;
 }
 .project-card img{
-    width:50%;
+    width:30%;
 }
 .project-title{
     color: beige;
