@@ -44,6 +44,6 @@
         grid-template-columns: 1fr;
     }
     .pro-details{
-        overflow: auto;
+        overflow: scroll;
     }
 }
