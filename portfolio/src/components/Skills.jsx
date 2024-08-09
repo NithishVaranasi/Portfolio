@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPython,FaJs, FaLayerGroup, FaReact,FaBullseye,FaC } from 'react-icons/fa';
+import {FaC,FaPython,FaJs, FaLayerGroup, FaReact,FaBullseye } from 'react-icons/fa';
 // import { DiPython, DiJsBadge, DiReact } from 'react-icons/di';
 import './Skillsstyles.css'
 import { Link } from "react-router-dom"
