@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaC,FaPython,FaJs, FaLayerGroup, FaReact,FaBullseye } from 'react-icons/fa';
+import {FaCode,FaPython,FaJs, FaLayerGroup, FaReact,FaBullseye } from 'react-icons/fa';
 // import { DiPython, DiJsBadge, DiReact } from 'react-icons/di';
 import './Skillsstyles.css'
 import { Link } from "react-router-dom"
@@ -10,7 +10,7 @@ const Skills = () => {
             <h2 style={{ color: "White" }}>Skills</h2>
             <div className="skill-icons">
                 <div className="skill">
-                    <FaC />
+                    <FaCode />
                     <span>C</span>
                 </div>
                 <div className="skill">
