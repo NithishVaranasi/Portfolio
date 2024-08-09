@@ -9,7 +9,7 @@ const Skills = () => {
         <div className="skills">
             <h2 style={{ color: "White" }}>Skills</h2>
             <div className="skill-icons">
-            <div className="skill">
+                <div className="skill">
                     <FaC />
                     <span>C</span>
                 </div>
