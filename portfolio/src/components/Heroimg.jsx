@@ -1,15 +1,11 @@
 import React from 'react'
 import "./Heroimgstyles.css"
 import IntroImg from "../assets/port.jpg"
-import ProfileImg from "../assets/Imgpro.jpg"
 import { Link } from 'react-router-dom'
 const Heroimg = () => {
   return <div className='hero'>
     <div className='mask'>
         <img className='into-img' src={IntroImg} alt='IntroImg'/>
-    </div>
-    <div className ='proimg'>
-      <img className='img-profile' src={ProfileImg} alt='ProfileImg'/>
     </div>
     <div className='content'>
         <p>HI, Know About Me..</p>
