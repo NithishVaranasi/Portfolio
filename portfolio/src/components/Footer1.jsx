@@ -14,7 +14,7 @@ const Footer = () => {
                 </div>
                 <div className="phone">
                   <h4><FaPhone size={30} style={{color:"white",marginRight:"2rem"}}/>
-                     <a href="tel:+919553123710">+91 9553123710</a></h4>
+                     <a href="tel:+919553123710">+919553123710</a></h4>
                              
                   </div>
                 <div className="email">
