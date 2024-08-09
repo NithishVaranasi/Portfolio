@@ -1,49 +1,73 @@
-.project-heading{
+.project-heading {
     text-align: center;
     padding: 4rem 0 2rem 0;
-}
-
-.project-container{
+  }
+  
+  .project-container {
     max-width: 1140px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
     padding-bottom: 5rem;
-}
-.project-card{
+  }
+  
+  .project-card {
     background: transparent;
     padding: 1.2rem 1rem;
-}
-.project-card img{
-    width:80%;
-}
-.project-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .project-card img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .project-title {
     color: beige;
     padding: 1rem 0;
-}
-.pro-details{
+  }
+  
+  .pro-details {
     padding-bottom: 1rem;
     font-size: 1.1rem;
-    text-align: match-parent;
-}
-.pro-btns{
+    text-align: center;
+  }
+  
+  .pro-btns {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem; /* Space between buttons */
     padding: 0.5rem 0;
-    align-items:last baseline ;
-}
-.pro-btns .btn{
-    padding: 0.5rem;
-    margin: auto;
-}
-@media screen and(max-width:500px) {
-    .project-container{
-        max-width: 80%;
-        margin: auto;
-        grid-template-columns: 1fr;
+  }
+  
+  .pro-btns .btn {
+    padding: 0.5rem 1rem;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .project-container {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 0 1rem; /* Add padding for small screens */
     }
-    .pro-details{
-        overflow: clip;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .project-container {
+      grid-template-columns: 1fr;
+      max-width: 100%;
+      padding: 0 0.5rem;
     }
-}
+  
+    .pro-details {
+      overflow: clip;
+      font-size: 1rem; /* Adjust font size for readability */
+    }
+  
+    .project-card img {
+      width: 100%; /* Ensure full width on smaller screens */
+    }
+  }
+  
