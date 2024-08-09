@@ -42,7 +42,6 @@
     gap: 1rem; /* Space between buttons */
     padding: 0.5rem 0;
   }
-  
   .pro-btns .btn {
     padding: 0.5rem 1rem;
   }
@@ -53,7 +52,6 @@
       padding: 0 1rem; /* Add padding for small screens */
     }
   }
-  
   @media screen and (max-width: 500px) {
     .project-container {
       grid-template-columns: 1fr;
