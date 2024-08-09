@@ -4,21 +4,21 @@ import Pro3 from"../assets/Pro3.jpg"
 const ProjectCardData=[
     {
         imgsrc: Pro1,
-        title:"Online Payments Fraud Transaction Detection",
+        title:"FRAUD TRANSACTION DETECTOR ",
         text:"This project involves detecting fraudulent online payments using advanced machine learning techniques. I also created a website to predict if a transaction is fraudulent or not.", 
         view:"kaggle.com",
         source:"https://github.com/NithishVaranasi/ML_DL.git"
     },
     {
         imgsrc: Pro2,
-        title:"Temperature",
+        title:"VATHAVARANAM",
         text:"This project showcases weather information from various global locations. Technologies used include JavaScript and React Native.",
         view:"androidstudio.com",
         source:"https://github.com/NithishVaranasi/ReactNative.git" 
     },
     {
         imgsrc: Pro3,
-        title:"Alarm Based Driver Drowsiness Detection",
+        title:"SLEEPY DRIVER",
         text: "This project detects driver drowsiness using advanced Deep Learning and Image Processing techniques. I also designed a user-friendly Graphical User Interface (GUI) with Python.",
         view:"",
         source:"https://github.com/NithishVaranasi/ML_DL.git" 
