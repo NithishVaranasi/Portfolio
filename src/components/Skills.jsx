@@ -4,14 +4,12 @@ import {
   FaPython,
   FaJs,
   FaReact,
-  FaNodeJs,
   FaGitAlt,
   FaDatabase,
 } from 'react-icons/fa';
 import {
   SiTensorflow,
   SiPytorch,
-  SiMongodb,
   SiTailwindcss,
 } from 'react-icons/si';
 import './Skillsstyles.css';
@@ -23,8 +21,7 @@ const Skills = () => {
       skills: [
         { name: 'React JS', icon: <FaReact />, level: 90 },
         { name: 'React Native', icon: <FaReact />, level: 85 },
-        { name: 'JavaScript', icon: <FaJs />, level: 90 },
-        { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 85 },
+        { name: 'JavaScript', icon: <FaJs />, level: 75 },
       ],
     },
     {
@@ -39,8 +36,6 @@ const Skills = () => {
     {
       title: 'Backend & Tools',
       skills: [
-        { name: 'Node.js', icon: <FaNodeJs />, level: 80 },
-        { name: 'MongoDB', icon: <SiMongodb />, level: 75 },
         { name: 'Git', icon: <FaGitAlt />, level: 90 },
         { name: 'SQL', icon: <FaDatabase />, level: 80 },
       ],
