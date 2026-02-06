@@ -10,7 +10,6 @@ import {
 import {
   SiTensorflow,
   SiPytorch,
-  SiTailwindcss,
 } from 'react-icons/si';
 import './Skillsstyles.css';
 
